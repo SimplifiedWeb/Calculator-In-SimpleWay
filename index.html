@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <input id="userInput" placeholder=" 0">
+            <br>
+            <button class="btn" onclick="press('1')">1</button>
+            <button class="btn" onclick="press('2')">2</button>
+            <button class="btn" onclick="press('3')">3</button>
+            <button class="btn" style="background-color: #ffb83d;"onclick="press('+')">+</button>
+            <br>
+            <button class="btn" onclick="press('4')">4</button>
+            <button class="btn" onclick="press('5')">5</button>
+            <button class="btn" onclick="press('6')">6</button>
+            <button class="btn" style="background-color: #ffcc80;"onclick="press('-')">-</button>
+            <br>
+            <button class="btn" onclick="press('7')">7</button>
+            <button class="btn" onclick="press('8')">8</button>
+            <button class="btn" onclick="press('9')">9</button>
+            <button class="btn" style="background-color: #ffe0b3;"onclick="press('*')">* </button>
+            <br>
+            <button class="btn" style="font-size: 19px" onclick="press('.')">.</button>
+            <button class="btn" onclick="press('0')">0</button>
+            <button class="btn" onclick="erase();">C</button>
+            <button class="btn" style="background-color: #ffb83d;"onclick="press('/')">/</button>
+            <br>
+            <button class="btn" style="width: 49%;" onclick="equal();">=</button>
+            <button class="btn" style="width: 49%; float: right; " onclick="backspace();">&#8592;</button>
+
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
