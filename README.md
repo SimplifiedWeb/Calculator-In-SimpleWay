@@ -1,4 +1,7 @@
 # Calculator-In-SimpleWay
+# The Main goal is to Understand The Logic How it is working.
+# Open project code one side and this readme another side to better understand what I'm trying to say.
+Check out Demo: https://simplifiedweb.github.io/Calculator-In-SimpleWay/
 I made a calculator project, it is simple and easy the way I develop it, the logic simple and easy. Let me explain you how I build it.
 
 ###### JUST READ IT CAREFULLY, I EXPLAIN IT VERY CLEARLY WHAT IS GOING ON UNDERNEATH THE HOOD. YOU CAN UNDERSTAND BETTER.
